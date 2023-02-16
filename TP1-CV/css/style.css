@@ -1,0 +1,144 @@
+
+/*COMIENZO DEL BODY*/
+
+body {
+    font-family: 'Old Standard TT', serif;
+}
+
+
+
+/* COMIENZO DEL HEADER */
+
+header{
+    background: #2d59aa;
+    padding: 10px 0;
+}
+
+.bloqueDeNavegacion{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagenDePerfil {
+    border: 2px solid blue;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: lightgrey;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #3998d8;
+    text-decoration: underline;
+}
+
+
+
+/* COMIENZO DEL MAIN */
+
+main {
+    background: rgb(76, 119, 145);
+    color: lightgrey;
+}
+
+main h3 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+.listasDeInformacion{
+    padding: 3em 0;
+    background: #376086;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.descripciones{
+    width: 768px;
+    margin: 0 auto;
+}
+
+.lista{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 45%;
+}
+
+.items{
+    line-height: 1.5; 
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+form label{
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+
+.entrada{
+    display: block;
+    margin: 0 0 20px 45%;
+    padding: 10px 20px;
+    width: 40%
+}
+
+.botones{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: lightgrey;
+    background: rgb(76, 119, 145);
+    border: none;
+    border-radius: 5px;
+    transition: 1s #376086;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-bottom: 25px;
+}
+
+.botones:hover{
+    background: #2d59aa;
+    transform: scale(1.2);
+}
+
+.textoIntercambiable {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+
+
+/* INICIO DEL FOOTER */
+
+.parrafoPieDePagina {
+    color: lightgrey;
+    text-align: center;
+    background-color: #2d59aa;
+    padding: 10px;
+}

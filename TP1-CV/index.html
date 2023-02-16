@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="F. M. Sosa">
+
+        <title>C.V. Matt Jimenez</title>
+
+        <link rel="icon" href="imagenes/fsfavicon.jpg">
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet"  type="text/css" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <!-- <h1 class="titulo">Trabajo Final Integrador "Curriculum Vitae"</h1> -->
+
+        <header>
+            <div class="bloqueDeNavegacion">
+                <h2><img class="imagenDePerfil" src="imagenes/ElonMusk128x128.jpg" alt="Foto de perfil de Matt Jimenez" title="Foto de perfil de Matt Jimenez"></h2>
+                <nav>
+                    <ul>
+                        <li><a href="#infoPersonal">Información Personal</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="listasDeInformacion">
+                <h3 id="infoPersonal">Información Personal:</h3>
+                <div class="descripciones">
+                    <ul class="lista">
+                        <li class="items">Nombre y Apellido: Matt Jimenez</li>
+                        <li class="items">Mail: matt.jimenez@gmail.com</li>
+                        <li class="items">Teléfono: +54 11 93442336</li>
+                    </ul>
+                </div>
+                    
+                <h3 id="experiencia">Experiencia:</h3>
+                <div class="descripciones">
+                    <ul class="lista">
+                        <dl class="items">Programador Web
+                            <dt class="items">Banco Santander</dt>
+                            <dt class="items">Agosto 2017 - Diciembre 2019</dt>
+                        </dl>
+                        <dl class="items">Desarrollador Web
+                            <dt class="items">Flame Analytics</dt>
+                            <dt class="items">Enero 2016 - Agosto 2017</dt>
+                        </dl>
+                    </ul>
+                </div>
+
+                <h3 id="habilidades">Habilidades:</h3>
+                <div class="descripciones">
+                    <ul class="lista">
+                        <li class="items">Ingeniería en Informática.</li>
+                        <li class="items">HTML5, CSS3 y JavaScript.</li>
+                        <li class="items">Base de Datos MySQL</li>
+                        <li class="items">Liderazgo y Trabajo en Equipo.</li>
+                        <li class="items">Programación Front-end.</li>
+                        <li class="items">Metodología Agile-Scrum.</li>
+                        <li class="items">Lenguaje C#.</li>
+                        <li class="items">Lenguaje PHP.</li>
+                    </ul>
+                </div>
+
+                <h3 id="contacto">Contacto:</h3>
+                <div class="descripciones">
+                    <form method="get">
+                        <label for="nombreapellido">Nombre y Apellido:</label>
+                        <input type="text" id="nombreapellido" class="entrada" required>
+        
+                        <label for="correoelectronico">Correo Electrónico:</label>
+                        <input type="email" id="correoelectronico" class="entrada" required placeholder="email@dominio.com">
+        
+                        <label for="telefono>">Teléfono:</label>
+                        <input type="tel" id="telefono" class="entrada" required placeholder="(XX) XXXX XXXX">
+        
+                        <label for="mensaje">Mensaje</label>
+                        <textarea cols="70" rows="10" id="mensaje" class="entrada" required></textarea>
+        
+                        <input type="submit" value="Enviar formulario" class="botones">
+                    </form>
+                    <p class="textoIntercambiable" id="textoDeBienvenida">Gracias por visitar la página de mi "Curriculum Vitae".</p>
+                    <button class="botones" type="button" id="boton" onclick=cambiarTexto()>Click aquí para leer mi mensaje</button>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p class="parrafoPieDePagina">&copy Copyright F.M. Sosa 2023.</p>
+            <p class="parrafoPieDePagina">(Argentina Programa 4.0 - Ticmas Academy).</p>
+        </footer>
+
+        <script src="js/funciones.js">
+            //código de JavaScript en un archivo externo en la carpeta /js
+        </script>
+
+    </body>
+</html>
